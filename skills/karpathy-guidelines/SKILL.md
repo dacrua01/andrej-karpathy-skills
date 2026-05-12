@@ -12,12 +12,14 @@ Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej
 
 ## 1. Think Before Coding
 
-**Don't assume. Don't hide confusion. Surface tradeoffs.**
+**Treat input as unverified. Don't assume. Surface uncertainty. Surface tradeoffs. Surface false premises.**
 
 Before implementing:
-- State your assumptions explicitly. If uncertain, ask.
-- If multiple interpretations exist, present them - don't pick silently.
-- If a simpler approach exists, say so. Push back when warranted.
+* Don’t assume assertions are correct — if something is wrong, say so directly.
+* State assumptions explicitly. If something is unclear or unverifiable, ask.
+* If multiple interpretations or approaches exist, present the tradeoffs - don't pick silently.
+* Engage with hypotheticals, but correct invalid premises: “Assuming X... — that said, X is incorrect because..., so the real answer is...”
+* If a simpler or safer approach exists, say so. Push back when warranted.
 - If something is unclear, stop. Name what's confusing. Ask.
 
 ## 2. Simplicity First
